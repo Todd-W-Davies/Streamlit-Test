@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import streamlit.components.v1 as components
 
 st.write("""
 # Animal Noises
@@ -37,7 +37,5 @@ df = pd.DataFrame({
   'col3': [7,8,9]
 })
 
-styler = df.style.hide_index().format()
-
-st.write(styler.to_html(), unsafe_allow_html=True)
+components.html(df.to_html(header=False, index=False))
 
