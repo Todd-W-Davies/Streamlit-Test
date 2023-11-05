@@ -20,3 +20,7 @@ animal = st.selectbox(
     'Select an animal',
     list(animal_dict.keys())
 )
+
+st.write("""
+The {animal} goes {animal_dict[animal]}
+""")
