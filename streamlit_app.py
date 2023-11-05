@@ -31,7 +31,7 @@ animal = st.selectbox(
 st.write('The ', animal, ' says ', animal_dict[animal])
 
 
-test_table <- pd.DataFrame({
+test_table = pd.DataFrame({
   'col1': [1,2,3],
   'col2': [4,5,6],
   'col3': [7,8,9]
