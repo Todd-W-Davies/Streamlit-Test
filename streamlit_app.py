@@ -37,5 +37,5 @@ test_table <- pd.DataFrame({
   'col3': [7,8,9]
 })
 
-st.table(test_table)
+st.write(test_table)
 
