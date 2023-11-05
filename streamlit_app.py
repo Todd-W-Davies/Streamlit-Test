@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 st.write("""
 # Animal Noises
@@ -27,3 +29,9 @@ animal = st.selectbox(
 )
 
 st.write('The ', animal, ' says ', animal_dict[animal])
+
+
+test_table <- np.array([(1,2,3)],[4,5,6],[7,8,9])
+
+st.table(test_table)
+
