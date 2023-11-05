@@ -27,4 +27,4 @@ animal = st.selectbox(
     list(animal_dict.keys())
 )
 
-st.write('The ', animal, ' says ', animal_dict[animal], '!')
+st.write('The ', animal, ' says ', animal_dict[animal])
