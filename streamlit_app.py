@@ -37,7 +37,7 @@ df = pd.DataFrame({
   'col3': [7,8,9]
 })
 
-styler = df.style.hide_index()
+styler = df.style.hide_index().format()
 
 st.write(styler.to_html(), unsafe_allow_html=True)
 
