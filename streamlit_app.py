@@ -1,8 +1,7 @@
 import streamlit as st
 
 st.write("""
-# My first app
-Animal Noises
+# Animal Noises
 """)
 
 animal_dict = {
