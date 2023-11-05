@@ -19,3 +19,4 @@ animal_dict = {
 animal = st.selectbox(
     'Select an animal',
     list(animal_dict.keys())
+)
