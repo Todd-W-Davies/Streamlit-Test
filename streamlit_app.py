@@ -9,7 +9,7 @@ animal_dict = {
   'cat': 'miaow',
   'cow': 'moo',
   'dog': 'woof',
-  'donkey': eeyore',
+  'donkey': 'eeyore',
   'duck': 'quack',
   'fish': 'blub',
   'fox': 'ring-ding-ding-ding-dingeringeding',
